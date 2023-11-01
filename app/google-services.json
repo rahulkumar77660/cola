@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "626820993840",
+    "project_id": "coca-cola-8b9d7",
+    "storage_bucket": "coca-cola-8b9d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626820993840:android:c4285affdc55ac1a1b6ef5",
+        "android_client_info": {
+          "package_name": "com.example.cola"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFllCZ7PbtDlOqSZq2e5DMHf8F272u2Qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626820993840:android:edc3ee77798753a91b6ef5",
+        "android_client_info": {
+          "package_name": "com.example.phoneauthinphoto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFllCZ7PbtDlOqSZq2e5DMHf8F272u2Qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

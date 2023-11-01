@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#72CDC6"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<androidx.cardview.widget.CardView-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    app:cardCornerRadius="10dp"-->
+    <!--    app:cardElevation="2dp"-->
+    <!--    android:layout_marginTop="40dp"-->
+    <!--    >-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="7sp"
+        >
+
+        <ImageView
+            android:id="@+id/image_clear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_clear_24"
+            android:layout_marginLeft="255sp"
+
+            />
+
+        <EditText
+            android:id="@+id/u_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="25dp"
+            />
+        <EditText
+            android:id="@+id/u_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_below="@id/u_name"
+            />
+
+        <EditText
+            android:id="@+id/u_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/u_email"
+            android:layout_marginTop="2dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="Age" />
+
+        <EditText
+            android:id="@+id/u_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:layout_below="@id/u_age"
+            />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="#01579B"
+            android:layout_below="@id/u_address"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="30dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="522dp"
+            android:layout_marginTop="280dp"
+            android:background="#E10303"
+            android:src="@drawable/img_4" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

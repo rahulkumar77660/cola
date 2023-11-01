@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E81919"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="-29dp"
+        android:src="@drawable/img_4" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15sp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="-30dp"
+        app:cardElevation="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/name"
+            android:backgroundTint="#1587BC"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Login"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="22sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/name"
+                android:drawableLeft="@drawable/baseline_phone_iphone_24"
+                android:drawablePadding="10dp"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="9sp"
+                android:textColor="#F69999" />
+
+            <Button
+                android:id="@+id/send_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70sp"
+                android:backgroundTint="#0B5E68"
+                android:text="Send OTP"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20sp"
+                android:translationX="-39sp" />
+
+            <EditText
+                android:id="@+id/Otp_veri"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="22sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/name"
+                android:drawablePadding="9dp"
+                android:hint="Correct OTP"
+                android:inputType="number"
+                android:drawableLeft="@drawable/baseline_mail_lock_24"
+
+                android:maxLength="6"
+                android:padding="9dp"
+                android:textColor="#ED8787"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/OTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70sp"
+                android:backgroundTint="#860DA1"
+                android:text="Verify OTP"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20sp"
+                android:translationX="-39sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pho" />
+
+</LinearLayout>
